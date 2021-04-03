@@ -18,7 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/login',function(Request $request){
+Route::get('/register',function(Request $request){
     // $user = User::where([['username'=> $request->username],['psd'=> $request->psd]])->get();
     // return $user;
     // "select * from user where username=dgcyhscuj and psd=gcvdayhcuj"
